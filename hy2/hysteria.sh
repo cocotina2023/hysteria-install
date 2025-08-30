@@ -327,7 +327,7 @@ EOF
 }
 EOF
 
-    url="hysteria2://$auth_pwd@$last_ip:$last_port/?insecure=1&sni=$hy_domain#Hysteria2-misaka"
+    url="hysteria2://$auth_pwd@$last_ip:$last_port/?insecure=1&sni=$hy_domain#Hysteria2-cocotina2023"
     echo $url > /root/hy/url.txt
 
     systemctl daemon-reload
